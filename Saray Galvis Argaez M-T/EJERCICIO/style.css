@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background:url(https://quenoticias.com/wp-content/uploads/2021/01/Playstation-Videojuegos-Consola-retro-Unsplash-1000x600.jpg);
+    background-size:cover ;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: plum;
+    font-family:'Tapestry', cursive;
+}
+
+nav{
+    background-color: rgba(119, 149, 153, 0.363);
+    width: 100%; 
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.lista a{
+    text-decoration: none;
+    color: rgb(175, 16, 69);
+    display: block;
+    padding: 15px 50px;
+}
+
+.menu .lista{
+    display: inline-block;
+}
+
+.lista-r{
+    float: right;
+}
+.lista a:hover{
+    background-color: indigo;
+}
+
+main{
+    text-align: center;
+}
+
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border:10px solid rgb(87, 16, 202); 
+}
+
+p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #bdcfecd5;
+}
+label{
+    font-size: 22px;
+    font-weight: 600;
+}
+#textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #bdcfecd5;
+    color: black;
+}
+button[type='subimet']{
+    background:#a9c4ef;
+    color: white;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+
+
+}
+input::placeholder{
+    color: white;
+}
+input:focus{
+    outline: none;
+    background-color: rgb(87, 16, 202);
+}
+
